@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    font-family: cursive;
+    color: white;
+}
+
+#container{
+    width: 300px;
+    height: 400px;
+     border: 5px solid;
+    border-image: linear-gradient(45deg,red,blue) 10;
+}
+
+#container h3{
+    color: white;
+    text-align: center;
+    /* font-family: cursive; */
+    margin: 22px 20px;
+    font-size: 30px;
+}
+
+#container form{
+
+
+}
+
+#container form label{
+    padding-left: 20px;
+}
+
+#container form input{
+    margin: 10px 20px;
+    border-bottom: 1px solid white;
+    outline: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    color: white;
+    padding-left: 4px;
+    height: 30px;
+    width: 230px;
+    font-size: 20px;
+    background:transparent;
+    font-family: cursive;
+}
+
+#container form #submit{
+    height: 40px;
+    width: 200px;
+    background: linear-gradient(to right,red,blue);
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 16px;
+    margin: 12px 14px auto;
+    display: block;
+}
+
+
+/* 
+working procedure of xaamp server
+https://www.cs.virginia.edu/~up3f/cs4750/supplement/DB-setup-xampp.html
+
+connecting html to sql
+https://www.educative.io/answers/how-to-connect-an-html-form-to-a-mysql-database-in-php
+*/
